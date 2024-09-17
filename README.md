@@ -19,8 +19,8 @@ The project demonstrates how different synchronization mechanisms manage concurr
 
 # Compilation & Execution:
 To compile and run the program, use the following commands:
-# gcc -pthread -o sync_project sync_project.c
-# ./sync_project
+ gcc -pthread -o sync_project sync_project.c
+ ./sync_project
 # Usage:
 The program runs three examples sequentially, showing the usage of mutex, semaphore, and monitor for synchronizing thread access.
 
